@@ -1,5 +1,3 @@
-# .github/workflows/main.yml
-
 on: push
 
 jobs:
@@ -13,5 +11,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_EMAIL: tariciwa@gmail.com # replace me
         MAX_DAYS: 365
-        MIN_COMMITS_PER_DAY: 8
+        MIN_COMMITS_PER_DAY: 6
         MAX_COMMITS_PER_DAY: 10
+        START_DATE: 2024-01-01  # Ganti dengan tanggal awal sesuai tahun yang diinginkan
+        END_DATE: 2024-12-31    # Ganti dengan tanggal akhir sesuai tahun yang diinginkan
